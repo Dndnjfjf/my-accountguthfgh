@@ -476,7 +476,7 @@ vpnify
 
 
 
-def aol(message)::
+def aol(message):
     global fast
     if message.document:
         bnds=bot.get_file(message.document.file_id)
